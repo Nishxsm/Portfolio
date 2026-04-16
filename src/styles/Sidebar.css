@@ -1,0 +1,155 @@
+.sidebar {
+  width: 40%;
+  height: 100vh;
+  box-sizing: border-box;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  padding: 100px 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 48px;
+  margin: 0;
+  color: #fff;
+}
+
+.role {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.tagline {
+  margin-top: 20px;
+  max-width: 300px;
+  color: #8892b0;
+  line-height: 1.5;
+}
+
+.side-nav {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.side-nav a {
+  color: #8892b0;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.side-nav a:hover {
+  color: #64ffda;
+}
+
+
+.socials {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.socials a {
+  color: #8892b0;
+  font-size: 22px;
+  transition: 0.2s;
+}
+
+.socials a:hover {
+  color: #64ffda;
+}
+
+.side-nav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  color: #8892b0;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+
+.side-nav .line {
+  width: 20px;
+  height: 1px;
+  background-color: #8892b0;
+  transition: 0.3s ease;
+}
+
+
+.side-nav a.active {
+  color: #ccd6f6;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.side-nav a.active .line {
+  width: 60px;
+  background-color: #64ffda;
+}
+
+
+.side-nav a:hover .line {
+  width: 30px;
+}
+
+
+.cursor {
+  margin-left: 4px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+
+.icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(70%) sepia(10%) saturate(300%);
+  transition: 0.2s;
+}
+
+.icon:hover {
+  filter: invert(90%) sepia(50%) saturate(500%);
+}
+
+.socials img.icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  filter: brightness(0.9);
+  transition: 0.2s;
+}
+
+.socials img.icon:hover {
+  filter: brightness(1.2);
+}
+
+
+.sidebar-top,
+.side-nav,
+.side-nav a,
+.socials,
+.socials a {
+  pointer-events: auto;
+}

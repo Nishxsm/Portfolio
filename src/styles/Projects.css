@@ -1,0 +1,109 @@
+.projects {
+  margin-top: 120px;
+}
+
+.proj-heading {
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: #ccd6f6;
+}
+
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.project-card {
+  display: flex;
+  gap: 30px;
+
+  padding: 20px;
+  border-radius: 8px;
+
+  transition: all 0.25s ease;
+}
+
+
+.projects:hover .project-card {
+  opacity: 0.3;
+}
+
+.project-card:hover {
+  opacity: 1 !important;
+  transform: translateY(-4px);
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+
+.project-image img {
+  width: 140px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 6px;
+
+  transition: 0.3s ease;
+}
+
+
+.project-card:hover .project-image img {
+  transform: scale(1.05);
+}
+
+
+.project-title {
+  margin: 0;
+  font-size: 16px;
+  color: #ccd6f6;
+
+  transition: 0.2s;
+}
+
+
+.project-card:hover .project-title {
+  color: #64ffda;
+}
+
+
+.arrow {
+  font-size: 14px;
+  margin-left: 6px;
+  transition: 0.2s;
+}
+
+.project-card:hover .arrow {
+  transform: translate(3px, -3px);
+  color: #64ffda;
+}
+
+
+.project-desc {
+  margin: 10px 0;
+  color: #8892b0;
+  max-width: 520px;
+  line-height: 1.5;
+}
+
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tech-pill {
+  font-size: 11px;
+  padding: 5px 10px;
+  border-radius: 999px;
+
+  color: #64ffda;
+  background-color: rgba(100, 255, 218, 0.08);
+
+  transition: 0.2s;
+}
+
+.tech-pill:hover {
+  background-color: rgba(100, 255, 218, 0.15);
+}

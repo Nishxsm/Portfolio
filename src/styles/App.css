@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  background-color: #0a192f;
+  color: #ccd6f6;
+}
+
+
+.cursor-glow {
+  position: fixed;
+  width: 600px;
+  height: 600px;
+
+  pointer-events: none;
+  z-index: 0;
+
+  top: 0;
+  left: 0;
+
+  will-change: transform; 
+
+  background: radial-gradient(
+    circle,
+    rgba(100, 255, 218, 0.12) 0%,
+    rgba(100, 255, 218, 0.06) 30%,
+    transparent 60%
+  );
+
+  filter: blur(90px);
+}
+
+
+.layout {
+  display: flex;
+  position: relative;
+  z-index: 1; 
+}
+
+
+.content {
+  width: 100%;
+  margin-left: 40%;
+
+  padding: 100px 60px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+
+.content::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.content {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
