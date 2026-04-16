@@ -1,4 +1,4 @@
-import '../styles/projects.css'
+import '../styles/Projects.css'
 import { projectsData } from '../data/projectsData'
 
 function Projects() {
