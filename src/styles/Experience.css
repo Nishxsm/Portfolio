@@ -79,15 +79,19 @@
 
 
 .exp-card {
-  transition: 0.3s ease;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  border-radius: 8px;
+
+  text-decoration: none; 
+  color: inherit;         
+  cursor: pointer;
+
+  transition: 0.25s ease;
 }
-
-
-.experience:hover .exp-card {
-  opacity: 0.3;
-}
-
 
 .exp-card:hover {
-  opacity: 1 !important;
+  transform: translateY(-4px);
+  background-color: rgba(255, 255, 255, 0.03);
 }

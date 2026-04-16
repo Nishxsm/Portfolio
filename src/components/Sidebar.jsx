@@ -34,10 +34,10 @@ function Sidebar() {
 
  
   const texts = [
-    "I build accessible, pixel-perfect experiences.",
-    "I develop full-stack applications.",
-    "I work with React, PHP, and APIs.",
-    "I build mobile apps using Flutter."
+    "I DO FRONTEND DEV",
+    "I DO BACKEND DEV",
+    "I DO MACHINE LEARNING",
+    "I DO MOBILE DEVELOPMENT"
   ]
 
   const [textIndex, setTextIndex] = useState(0)
@@ -103,8 +103,13 @@ function Sidebar() {
       </div>
 
       <div className="socials">
-        <a href="#"><i className="fab fa-github"></i></a>
-        <a href="#"><i className="fab fa-linkedin"></i></a>
+  <a href="https://github.com/Nishxsm" target="_blank" rel="noreferrer">
+  <i className="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/nishant-dandnaik-2b5a6431a/" target="_blank" rel="noreferrer">
+  <i className="fab fa-linkedin"></i>
+</a>
 
        
         <a href="https://leetcode.com/Nishxsm" target="_blank" rel="noreferrer">

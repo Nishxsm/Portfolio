@@ -5,37 +5,47 @@ function Experience() {
   return (
     <section id="experience" className="experience">
 
+      {experienceData.map((job, index) => {
+        const Card = job.link ? "a" : "div"
 
-      {experienceData.map((job, index) => (
-        <div className="exp-card" key={index}>
+        return (
+          <Card
+            key={index}
+            href={job.link}
+            target="_blank"
+            rel="noreferrer"
+            className="exp-card"
+          >
 
-        
-          <div className="exp-left">
-            {job.duration}
-          </div>
+          
+            <div className="exp-left">
+              {job.duration}
+            </div>
 
-        
-          <div className="exp-right">
-            <h3>
-              {job.role} @ {job.company}
-            </h3>
+           
+            <div className="exp-right">
+              <h3>
+                {job.role} {job.company}
+              </h3>
 
-            <ul>
-              {job.points.map((point, i) => (
-                <li key={i}>{point}</li>
-              ))}
-            </ul>
-            <div className="tech-stack">
-           {job.tech.map((t, i) => (
-          <span key={i} className="tech-pill">
-          {t}
-          </span>
-          ))}
-          </div>
-          </div>
+              <ul>
+                {job.points.map((point, i) => (
+                  <li key={i}>{point}</li>
+                ))}
+              </ul>
 
-        </div>
-      ))}
+              <div className="tech-stack">
+                {job.tech.map((t, i) => (
+                  <span key={i} className="tech-pill">
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+          </Card>
+        )
+      })}
 
     </section>
   )

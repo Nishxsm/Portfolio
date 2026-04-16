@@ -1,26 +1,17 @@
 export const experienceData = [
-  {
-    company: "Company A",
-    role: "Frontend Developer",
-    duration: "2023 - Present",
-    points: [
-      "Built responsive web interfaces",
-      "Worked with React and APIs",
-      "Improved performance and UX"
-    ],
-    tech: ["JavaScript", "React", "APIs"]
-  },
-  {
-    company: "Company B",
-    role: "Backend Developer",
-    duration: "2022 - 2023",
-    points: [
-      "Developed REST APIs using PHP",
-      "Worked with MySQL database",
-      "Optimized server performance"
-    ],
-    tech: ["PHP", "MySQL", "REST"]
-  }
+{
+  company: "Luxe Wheels",
+  role: "",
+  duration: "2025-Present",
+  points: [
+    "Developed a responsive car dealership website based on client requirements and design preferences",
+    "Focused on clean UI layout, smooth navigation, and user-friendly browsing experience",
+    "Optimized styling and structure for performance and cross-device compatibility",
+    "Ensured cross-device compatibility and smooth navigation across all pages"
+  ],
+  tech: ["React", "CSS"],
+  link: "https://car-dealer-ybw5.vercel.app/"
+}
 ]
 
 export default experienceData

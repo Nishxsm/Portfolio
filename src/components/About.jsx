@@ -22,7 +22,7 @@ function About() {
       </p>
 
       <p>
-        Outside of academics, I spend time working on personal projects and experimenting with new tools to continuously improve my development skills.
+        Outside of academics, i spend most of my time working out and playing video games.
       </p>
 
     </section>
