@@ -14,3 +14,22 @@
   max-width: 800px;
   font-size: 19px;
 }
+
+@media (max-width: 768px) {
+
+  #about {
+    margin-bottom: 60px;
+  }
+
+  #about h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  #about p {
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 100%;
+  }
+
+}

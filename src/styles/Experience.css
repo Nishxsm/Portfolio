@@ -126,3 +126,46 @@
 .resume-link a:hover span {
   transform: translate(3px, -3px);
 }
+
+@media (max-width: 768px) {
+
+  .experience {
+    margin-top: 60px;
+  }
+
+
+  .exp-card {
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+
+
+  .exp-left {
+    min-width: unset;
+    font-size: 13px;
+  }
+
+
+  .exp-right h3 {
+    font-size: 16px;
+  }
+
+ 
+  .exp-right li {
+    font-size: 14px;
+  }
+
+  .tech-pill {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+
+  .resume-link {
+    margin-top: 40px;
+  }
+
+}

@@ -153,3 +153,65 @@
 .socials a {
   pointer-events: auto;
 }
+
+@media (max-width: 768px) {
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    padding: 40px 20px;
+
+    justify-content: flex-start;
+  }
+
+
+  .name {
+    font-size: 32px;
+  }
+
+  .role {
+    font-size: 16px;
+  }
+
+  .tagline {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+ 
+  .side-nav {
+    margin-top: 30px;
+    gap: 12px;
+  }
+
+  .side-nav a {
+    font-size: 12px;
+  }
+
+
+  .side-nav a.active {
+    font-size: 14px;
+  }
+
+ 
+  .side-nav .line {
+    width: 15px;
+  }
+
+  .side-nav a.active .line {
+    width: 40px;
+  }
+
+
+  .socials {
+    margin-top: 25px;
+    gap: 18px;
+  }
+
+  .socials a {
+    font-size: 20px;
+  }
+
+}

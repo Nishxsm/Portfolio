@@ -115,3 +115,45 @@
   text-decoration: none;
   color: inherit;
 }
+
+@media (max-width: 768px) {
+
+  .projects {
+    margin-top: 60px;
+  }
+
+ 
+  .project-card {
+    flex-direction: column;
+    gap: 12px;
+
+    padding: 16px;
+  }
+
+  
+  .project-image img {
+    width: 100%;
+    height: auto;
+  }
+
+ 
+  .project-title {
+    font-size: 15px;
+  }
+
+  .project-desc {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .tech-pill {
+    font-size: 11px;
+    padding: 4px 9px;
+  }
+
+ 
+  .projects-list:hover .project-card {
+    opacity: 1;
+  }
+
+}
