@@ -1,21 +1,21 @@
 export const projectsData = [
   {
-    title: "Task Tracker CLI",
+    title: "Blogz",
     description:
-      "A command-line task manager that allows users to add, update, and delete tasks using JSON storage. Designed with simplicity and efficiency in mind, it provides a fast and lightweight way to manage daily tasks directly from the terminal. The project focuses on clean data handling, structured file operations, and a user-friendly CLI experience without relying on external dependencies.",
-    tech: ["PHP", "JSON"],
-    github: "#",
-    demo: "#",
-    image: "/images/tasktracker.png"
+      "Blogz is a Twitter-like web application built using PHP, JavaScript, HTML, and CSS, with SQL used for user authentication and data management. It allows users to create accounts, log in securely, and interact through posts in a simple social feed. The backend is handled using PHP, focusing on session management, database operations, and basic CRUD functionality. This project helped me understand how full-stack systems work together, including handling authentication, connecting frontend interfaces with backend logic, and structuring relational data effectively.",
+    tech: ["PHP", "JavaScript", "HTML", "CSS", "SQL"],
+    github: "",
+    demo: "https://test.saaitechlabs.com/nish_blogz/",
+    image: "/images/blogz.png"
   },
   {
-    title: "Weather App",
+    title: "ItKart",
     description:
-      "A weather application that fetches real-time data from an external API and displays it in a clean and responsive UI. It includes features like dynamic weather updates, location-based search, and error handling for invalid inputs. The project emphasizes API integration, asynchronous data handling, and presenting information in a visually clear and user-friendly format.",
-    tech: ["JavaScript", "API"],
-    github: "#",
-    demo: "#",
-    image: "/images/weather.png"
+      "ItKart is a frontend-focused e-commerce web application built using HTML, CSS, and JavaScript. It features a product listing interface along with a functional shopping cart system, allowing users to add, remove, and persist items across sessions. The project emphasizes clean UI design, responsive layouts, and client-side state management without relying on a backend. Through this, I explored how to simulate real-world e-commerce behavior using browser storage and dynamic DOM manipulation.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Nishxsm/ITkart",
+    demo: "https://nishxsm.github.io/ITkart/",
+    image: "/images/itkart.png"
   }
 ]
 

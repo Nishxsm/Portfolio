@@ -17,15 +17,13 @@ function Experience() {
             className="exp-card"
           >
 
-          
             <div className="exp-left">
               {job.duration}
             </div>
 
-           
             <div className="exp-right">
               <h3>
-                {job.role} {job.company}
+                {job.role} @ {job.company}
               </h3>
 
               <ul>
@@ -46,6 +44,13 @@ function Experience() {
           </Card>
         )
       })}
+
+      
+      <div className="resume-link">
+        <a href="/resume.pdf" target="_blank" rel="noreferrer">
+          View Full Résumé <span>↗</span>
+        </a>
+      </div>
 
     </section>
   )
