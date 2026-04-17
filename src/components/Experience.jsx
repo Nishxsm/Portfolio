@@ -23,7 +23,7 @@ function Experience() {
 
             <div className="exp-right">
               <h3>
-                {job.role} @ {job.company}
+                {job.role}  {job.company}
               </h3>
 
               <ul>
