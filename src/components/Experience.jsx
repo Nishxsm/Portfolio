@@ -47,7 +47,7 @@ function Experience() {
 
       
       <div className="resume-link">
-        <a href="/resume.pdf" target="_blank" rel="noreferrer">
+        <a href="/Resume2.pdf" target="_blank" rel="noreferrer">
           View Full Résumé <span>↗</span>
         </a>
       </div>
